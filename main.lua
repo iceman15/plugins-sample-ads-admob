@@ -90,5 +90,5 @@ if sysEnv == "simulator" then
 	warningText.x, warningText.y = display.contentWidth * 0.5, display.contentHeight * 0.5
 else
 	-- start with banner ad
-	showAd( "interstitial" )
+	showAd( "banner" )
 end
